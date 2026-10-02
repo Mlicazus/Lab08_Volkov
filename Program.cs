@@ -61,3 +61,15 @@
 //     bad++;
 // }
 // System.Console.WriteLine($"Неудачных попыток: {bad}");
+
+// string answer;
+// do
+// {
+//     System.Console.Write("Введите дату посещения (например, 01.09): ");
+//     string date = System.Console.ReadLine();
+//     System.Console.WriteLine($"Запись добавлена: {date}");
+//     System.Console.Write("Добавить ещё одну запись? (да/нет): ");
+//     answer = System.Console.ReadLine();
+// } while (answer == "да");
+// System.Console.WriteLine("Дневник сохранён");
+
