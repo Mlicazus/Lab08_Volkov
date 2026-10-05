@@ -117,15 +117,15 @@
 // }
 // System.Console.WriteLine($"Всего цифр в числе: {count}");
 
-// // Вариант 9
-// int N = 4;
-// int count = 0;
-// while (N != 0)
-// {
-//     if (N % 2 == 0)
-//     {
-//         count++;
-//     }
-//     N--;
-// }
-// System.Console.WriteLine($"Кол-во чётных чисел: {count}");
+// Вариант 9
+int N = 4;
+int count = 0;
+while (N != 0)
+{
+    if (N % 2 == 0)
+    {
+        count++;
+    }
+    N--;
+}
+System.Console.WriteLine($"Кол-во чётных чисел: {count}");
